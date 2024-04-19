@@ -71,7 +71,62 @@
         </a>
     </section>
 
-    <section class="c-hero-flex">
+    <section class="c-hero-flexm">
+        <br>
+        <div class="c-hero-flex__form-item">
+        <h2>Formulario</h2>
+        <form
+        action="./php/mail.php"
+        method="POST"
+      >
+        <div class="input-group">
+          <input
+            type="text"
+            class="form-control"
+            id="name"
+            name="name"
+            placeholder="Nombre"
+          />
+        </div>
+        <div class="input-group">
+          <input
+            type="text"
+            name="email"
+            style="display: none"
+          />
+          <input
+            type="text"
+            class="form-control"
+            id="email_real"
+            name="email_real"
+            required
+            placeholder="Email o Telefono "
+          />
+        </div>
+        <div class="input-group">
+          <textarea
+            class="form-control"
+            name="message"
+            id="message"
+            rows="1"
+            placeholder="Mensaje"
+          ></textarea>
+        </div>
+        <div>
+          <input
+            for="toggle"
+            class="btn-enviar"
+            type="submit"
+            value="Enviar mensaje"
+          />
+        </div>
+      </form>
+
+      <br><br>
+    </div>
+    </section>
+
+    <section class="c-hero-flexf">
         <a class="c-hero-flex__footer-item">
             <h2 class="footer__titulo">Sobre nosotros</h2>
             <p>Somos una empresa 100% mexicana. </p>
